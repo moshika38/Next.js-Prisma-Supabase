@@ -695,3 +695,15 @@ export async function POST(req) {
 }
 
 ```
+
+---
+
+# useRouter Example
+
+```
+import { useRouter } from "next/navigation";
+
+const router = useRouter();
+router.push("/posts");
+```
+
